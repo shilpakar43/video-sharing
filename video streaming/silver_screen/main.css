@@ -1,0 +1,45 @@
+*{
+    background-color: #01060A;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.rem;
+}
+
+.container {
+    display: flex;
+}
+
+.btn_upload {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    width: 120px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.movie_wrapper {
+    display: inline-block;
+    background-color: #262b31;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.movie_wrapper img {
+    width: 200px;
+    height: 200px;
+}
+
+.main_recomm_high_rating .text {
+    font-size: 40px;
+}
+
+.main_recomm_high_rating img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 8px;
+}
